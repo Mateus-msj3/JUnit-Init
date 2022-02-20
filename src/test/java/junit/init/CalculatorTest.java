@@ -24,11 +24,9 @@ public class CalculatorTest {
         int result = calculator.sum(num1, num2);
 
         //Verificação
-<<<<<<< HEAD
+
         Assertions.assertThat(result).isEqualTo(15);
-=======
-        Assertions.assertThat(result).isEqualTo(25);
->>>>>>> origin/main
+
     }
 
     @Test(expected = RuntimeException.class)
